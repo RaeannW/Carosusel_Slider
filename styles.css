@@ -1,0 +1,55 @@
+#wrapper {
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+}
+
+#content {
+	width: auto;
+	margin: auto;
+	position: relative;
+}
+
+#content img {
+	position: absolute;
+	width: 100%;
+}
+
+#links {
+	position: absolute;
+	margin-top: 15%;
+	width: 100%;
+	opacity: 50%;
+}
+
+#previous {
+	height: 40px;
+	float: left;
+	bottom: 5px;
+	padding-left: 10px;
+}
+
+#next {
+	height: 40px;
+	float: right;
+	top: 5px;
+	padding-right: 10px;
+}
+
+/************ Animation Styles ************/
+
+.fadeinImg {
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
